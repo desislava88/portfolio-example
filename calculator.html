@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator with one function</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+  <header>
+    <a href="index.html" class="logo"><img src="images/logo.png" alt="image"></a>
+    <nav>
+        <a href="clock.html">Clock</a>
+        <a href="piano.html">Piano</a>
+        <a href="lesson_html_css.html">HTML & CSS Basic</a> 
+        <a href="calculator.html">Calculator</a>   
+        <a href="call_and_apply.html">Call and Apply</a>
+        <a href="library.html">Labrary</a>
+    </nav>
+    <div class="creal"></div>    
+</header>
+    <h1>Calculator with one function</h1>
+
+    <!-- <table style = "border: 1 px solid black;" -->
+    <table border="1">
+        <tr>
+          <th>Addition</th>
+          <th>Substraction</th>
+          <th>Division</th>
+        </tr>
+        <tr>
+          <td><input type="text" id="add1"> + <input type="text" id="add2"> = <span id="addResult"></span></td>
+          <td><input type="text" id="sub1"> - <input type="text" id="sub2"> = <span id="subResult"></span></td>
+          <td><input type="text" id="div1"> / <input type="text" id="div2"> = <span id="divResult"></span></td>
+        </tr>
+        <tr>
+          <td><button onclick="calculateWithIf('add')" type="button">ADDD</button></td>
+          <td><div onclick="calculateWithIf('sub')">SUB</div></td>
+          <td><div onclick="calculateWithIf('div')">DIV</div></td>
+        </tr>
+       
+      </table>
+   
+</body>
+<script src = "js/calculator.js"></script>
+</html>
